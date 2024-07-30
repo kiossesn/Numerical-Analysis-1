@@ -4,8 +4,8 @@ using namespace std;
 #define EPSILON 0.00001
 // Function
 double f(double x){
-    return exp(pow(sin(x),3.0))+pow(x,6.0)-2*pow(x,4.0)-pow(x,3.0)-1;
-    //return 94* pow(cos(x),3.0)-24* cos(x)+177* pow(sin(x),2.0)-108* pow(sin(x),4.0)-72* pow(cos(x),3.0)* pow(sin(x),2.0)-65;
+    //return exp(pow(sin(x),3.0))+pow(x,6.0)-2*pow(x,4.0)-pow(x,3.0)-1;
+    return 94* pow(cos(x),3.0)-24* cos(x)+177* pow(sin(x),2.0)-108* pow(sin(x),4.0)-72* pow(cos(x),3.0)* pow(sin(x),2.0)-65;
 }
 // Prints root of f(x) with error in EPSILON
 void bisection(double a, double b){
@@ -46,7 +46,7 @@ void bisection(double a, double b){
 }
 // Main function
 int main(){
-    double a =-2, b =-0.5;
+    double a =-1.5, b =-1;
     bisection(a, b);
     return 0;
 }
