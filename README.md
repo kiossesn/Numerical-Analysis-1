@@ -1,4 +1,4 @@
-# Numerical-Analysis-in-C-
+# Numerical-Analysis-1
 This is a series of exercises in Numerical Analysis using main algorithms of this field in C++.
 
 [tasks.pdf](https://github.com/user-attachments/files/16428194/tasks.pdf)
