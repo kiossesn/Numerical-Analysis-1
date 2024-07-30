@@ -5,7 +5,8 @@ This is a series of exercises in Numerical Analysis using main algorithms of thi
 
 [Numerical_Analysis_1st_project.pdf](https://github.com/user-attachments/files/16428218/Numerical_Analysis_1st_project.pdf)
 
-###Exercise 1\
+###Exercise 1
+
 a) **bisection.cpp** 
 <pre>
     a=-2, b=2
@@ -30,7 +31,7 @@ c) **secant.cpp**
   a=-2, b=-0.5
 </pre>
 
-###Exercise 2\
+###Exercise 2
     
 1.
 
@@ -65,7 +66,7 @@ Couldn't understand it properly.
    newtonRaphson and newtonRaphsonPluss,\
    bisectiion and bisectionPlus 
 
-###Exercise 3\
+###Exercise 3
 
 1. **gauss.cpp**\
    PA = LU
@@ -74,7 +75,7 @@ Couldn't understand it properly.
 3. **gauss_seidel.cpp**\
    Ax = b
 
-###Exercise 4\
+###Exercise 4
 
 1. Stochasticity proof
 2. **googleArray.cpp**
